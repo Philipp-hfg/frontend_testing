@@ -8,17 +8,17 @@
 </template>
 
 <script>
-//import Header from './components/Header.vue'
-//import Sidebar from './components/Sidebar.vue'
-//import BookPreview from './components/BookPreview.vue'
+import Header from './components/Header.vue'
+import Sidebar from './components/Sidebar.vue'
+import BookPreview from './components/BookPreview.vue'
 import AddBookForm from './components/AddBookForm.vue'
 
 export default {
   name: 'App',
   components: {
-    //Header,
-    //Sidebar,
-    //BookPreview,
+    Header,
+    Sidebar,
+    BookPreview,
     AddBookForm
   }
 }
